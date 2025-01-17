@@ -1,0 +1,49 @@
+
+.user{
+    height : 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    /*margin-top: 45%;*/
+}
+.presentation{
+    padding-left:38%;
+}
+
+p{
+    padding-left: 6.5%;
+}
+input{
+    width: 200px;
+    height:32px;
+}
+
+.div-button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 16px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+button.active{
+    background-color: aqua;
+}
+.lancer{
+    border-radius: 0%;
+    width:200px;
+    height:48px;
+    margin : 16px;
+    background-color: lime;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+}

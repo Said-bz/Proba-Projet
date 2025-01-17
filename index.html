@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probabilité Exercice 1 </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="presentation">
+        <h1>Simulation de lancer de dé</h1>
+        <p>Sélectioner un des nombres du dé [1-6]</p>
+    </div>
+    <div class="user">
+    <input type="number" placeholder="Entrer le Nombre de lancer" id="nbrlancer">
+    <div class="div-button">
+        <button class="B1" onclick="toggleActive(this)">1</button>
+        <button class="B2" onclick="toggleActive(this)">2</button>
+        <button class="B3" onclick="toggleActive(this)">3</button>
+        <button class="B4" onclick="toggleActive(this)">4</button>
+        <button class="B5" onclick="toggleActive(this)">5</button>
+        <button class="B6" onclick="toggleActive(this)">6</button>
+    </div>
+    <button class="lancer" onclick="lancerDe()">Lancer le dé</button>
+    </div>
+    <hr><hr>
+    <div class="stats">
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
